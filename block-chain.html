@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from my-chat-1.vercel.app/block-chain.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Dec 2025 21:51:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blockchain.com Support</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --blue-main:#0C6CF2;
+  --blue-dark:#0A2E6E;
+  --bg:#0B1220;
+  --text:#EAF1FF;
+  --muted:#9FB2D9;
+  --border:rgba(255,255,255,.06);
+}
+
+*{
+  box-sizing:border-box;
+  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto;
+}
+
+body{
+  margin:0;
+  background:linear-gradient(
+    180deg,
+    #0A2E6E 0%,
+    #0C6CF2 35%,
+    #0B1220 100%
+  );
+  color:var(--text);
+}
+
+.wrapper{
+  max-width:1120px;
+  margin:auto;
+  padding:28px;
+}
+
+/* HEADER */
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.brand img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+.brand span{
+  font-weight:600;
+  font-size:18px;
+}
+
+.status{
+  font-size:13px;
+  font-weight:600;
+  color:#B9D4FF;
+}
+
+.status::before{
+  content:"● ";
+  color:#2DFF8A;
+}
+
+/* HERO */
+.hero{
+  margin-top:40px;
+  background:linear-gradient(
+    180deg,
+    rgba(255,255,255,.06),
+    rgba(255,255,255,.02)
+  );
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:42px;
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:32px;
+}
+
+.hero h1{
+  font-size:40px;
+  margin:0 0 12px;
+}
+
+.hero p{
+  font-size:16px;
+  color:var(--muted);
+  max-width:520px;
+}
+
+.actions{
+  margin-top:26px;
+  display:flex;
+  gap:14px;
+}
+
+.btn{
+  padding:14px 26px;
+  border-radius:999px;
+  font-weight:600;
+  border:none;
+  cursor:pointer;
+  font-size:15px;
+}
+
+.btn-primary{
+  background:var(--blue-main);
+  color:#fff;
+}
+
+.btn-secondary{
+  background:transparent;
+  color:#fff;
+  border:1px solid var(--border);
+}
+
+/* RIGHT PANEL */
+.support-panel{
+  background:rgba(11,18,32,.6);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:24px;
+}
+
+.support-panel h3{
+  margin:0 0 12px;
+  font-size:17px;
+}
+
+.support-panel ul{
+  margin:0;
+  padding-left:18px;
+  color:var(--muted);
+  line-height:1.7;
+}
+
+/* MAIN */
+main{
+  margin-top:34px;
+  display:grid;
+  grid-template-columns:1fr 360px;
+  gap:26px;
+}
+
+.card{
+  background:rgba(255,255,255,.04);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:26px;
+}
+
+.card h3{
+  margin-top:0;
+}
+
+dl dt{
+  margin-top:16px;
+  font-weight:600;
+}
+
+dl dd{
+  margin:6px 0 0;
+  color:var(--muted);
+}
+
+/* FOOTER */
+footer{
+  margin-top:40px;
+  text-align:center;
+  font-size:13px;
+  color:#9FB2D9;
+}
+
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;}
+  main{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<header>
+  <div class="brand">
+    <img src="cm.png" alt="Blockchain Logo">
+    <span>Blockchain.com Support</span>
+  </div>
+  <div class="status">Support Online</div>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>How can we help?</h1>
+    <p>
+      Get help with your Blockchain.com wallet, transactions,
+      account access, and security questions. Our support team is available 24/7.
+    </p>
+
+    <div class="actions">
+      <button class="btn btn-primary" onclick="openChat()">Start live chat</button>
+      <button class="btn btn-secondary" onclick="emailSupport()">Contact support</button>
+    </div>
+  </div>
+
+  <div class="support-panel">
+    <h3>Support topics</h3>
+    <ul>
+      <li>Wallet access & restoration</li>
+      <li>Pending or failed transactions</li>
+      <li>Account security & verification</li>
+      <li>Exchange & balance questions</li>
+    </ul>
+  </div>
+</section>
+
+<main>
+  <section class="card">
+    <h3>Frequently asked questions</h3>
+    <dl>
+      <dt>Can Blockchain.com access my wallet?</dt>
+      <dd>No. Blockchain.com never has access to your private keys.</dd>
+
+      <dt>Will support ask for my recovery phrase?</dt>
+      <dd>No. Support will never request your recovery phrase.</dd>
+
+      <dt>Is live chat secure?</dt>
+      <dd>Chats are encrypted and handled by verified agents.</dd>
+    </dl>
+  </section>
+
+  <aside class="card">
+    <h3>Security reminder</h3>
+    <ul style="color:var(--muted);line-height:1.7">
+      <li>Never share your recovery phrase</li>
+      <li>Verify the official domain</li>
+      <li>Emails only come from @blockchain.com</li>
+    </ul>
+  </aside>
+</main>
+
+<footer>
+  © Blockchain.com — Support Center (2025)
+</footer>
+
+</div>
+
+<!-- JIVO CHAT -->
+<script src="//code.jivosite.com/widget/Svgkqa13XX" async></script>
+
+<!-- CHAT CONTROL -->
+<script>
+function openChat(){
+  if (window.jivo_api) {
+    jivo_api.open();
+  } else {
+    alert("Live chat is loading, please wait...");
+  }
+}
+
+function emailSupport(){
+  window.location.href = "mailto:support@blockchain.com";
+}
+</script>
+
+</body>
+
+<!-- Mirrored from my-chat-1.vercel.app/block-chain.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Dec 2025 21:51:27 GMT -->
+</html>

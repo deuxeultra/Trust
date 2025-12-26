@@ -1,5 +1,5 @@
-HTTrack3.49-2+htsswf+htsjava launched on Wed, 24 Dec 2025 03:35:26 at https://my-chat-1.vercel.app/base.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0R1H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://my-chat-1.vercel.app/base.html -O1 "C:\Users\user\OneDrive\Documents\coinbase" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 27 Dec 2025 05:51:23 at https://my-chat-1.vercel.app/block-chain.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://my-chat-1.vercel.app/block-chain.html -O1 "C:\Users\user\OneDrive\Documents\Blockchain" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
@@ -7,5 +7,5 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	do not share these files/folders if you want these information to remain private
 
 
-HTTrack Website Copier/3.49-2 mirror complete in 5 seconds : 3 links scanned, 2 files written (25568 bytes overall), 2 files updated [11075 bytes received at 2215 bytes/sec], 27045 bytes transferred using HTTP compression in 3 files, ratio 35%
+HTTrack Website Copier/3.49-2 mirror complete in 4 seconds : 3 links scanned, 2 files written (24128 bytes overall) [24233 bytes received at 6058 bytes/sec], 6332 bytes transferred using HTTP compression in 2 files, ratio 55%
 (No errors, 0 warnings, 0 messages)
