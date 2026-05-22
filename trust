@@ -55,7 +55,7 @@
 <!-- Smartsupp Live Chat -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'a719dd4e404d3acf43318f74f1ce306f3bc323ec';
+_smartsupp.key = '4dacd95c7fe33f1c20813d4185b33a2eb72dd8b1';
 (function(d){
   var s=d.createElement('script');
   s.type='text/javascript';s.async=true;
